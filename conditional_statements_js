@@ -1,0 +1,49 @@
+//Rain or Not
+var rain = true
+if(rain)
+{
+    console.log("Take an Umberlaa");
+}
+
+else{
+    console.log("Enjoy the sunshine");
+}
+
+//Homwork done or not
+var homework = true
+
+if(homework){
+    console.log("Great Job.");
+}else{
+    console.log("Finish your homework before playing.")
+}
+
+//Cookies 
+
+var cookies = true
+
+if (cookies){
+    console.log("Would you like a cookie?");
+}else{
+    console.log("Time to bake more cookies.");
+}
+
+
+//Brush or Not
+
+var brush = true
+if (brush){
+    console.log("Your teeth are clean");
+}else{
+    console.log("Go brush your teeth now.")
+}
+
+
+//Birthday or Not
+
+var birthday =true
+if (birthday){
+    console.log("Happy birthday enjoy your special day!");
+}else{
+    console.log("Have a great day");
+}
