@@ -1,0 +1,16 @@
+var color = "yellow";
+
+if(color == "red")
+{
+    console.log("STOP");
+}
+
+if(color == "yellow")
+{
+    console.log("GET READY");
+}
+
+if(color == "green")
+{
+    console.log("GO");
+}
