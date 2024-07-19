@@ -1,0 +1,60 @@
+<!--MANIPULATING CSS STYLES -->
+
+
+<style>
+
+
+    #box{
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        transition: 2s;
+        text-align: center;
+
+    }
+
+    #box2{
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        transition: 2s;
+        margin: auto;
+
+    }
+
+    #b2{
+        margin: auto;
+        align-items: center;
+    }
+    
+
+</style>
+
+
+<div id="box"></div>
+
+    <button onclick="change()">Click Me</button>
+
+<div id="box2"></div>
+
+<button id="b2" onclick="frm()">Click me </button>
+    
+<script>
+
+    var box = document.getElementById("box");
+
+    function change(){
+        
+
+            box.style.backgroundColor="red";
+    }
+
+
+    var box2 = document.getElementById("box2");
+    function frm(){
+
+        box2.style.backgroundColor="yellow";
+
+    }
+
+</script>
